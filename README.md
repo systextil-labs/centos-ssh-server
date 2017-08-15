@@ -15,3 +15,9 @@ A container Docker with CentOS 7, SSH server and scp.
   docker run -d --name=SSH_SEVER -p 2222:22 systextil/centos-ssh-server:latest
 ```
 
+## How to access?
+
+```
+  ssh root@127.0.0.1 -p 2222
+  password: admin
+```
