@@ -2,9 +2,6 @@ FROM centos:latest
 
 MAINTAINER Daniel Silva <dap1995@gmail.com>
 
-ENV LANG en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
-
 RUN yum update -y
 RUN yum -y install openssh-server openssh-clients
 RUN mkdir /var/run/sshd
